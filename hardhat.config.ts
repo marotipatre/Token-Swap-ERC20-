@@ -4,6 +4,7 @@ import "@typechain/hardhat";
 import * as dotenv from 'dotenv';
 dotenv.config();
 
+// you can change chain according to you
 const chainIds = {
   ganache: 1337,
   goerli: 5,
